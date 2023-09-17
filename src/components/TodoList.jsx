@@ -13,7 +13,7 @@ export default function TodoList() {
     // ]
 
     return (
-        <ul>
+        <ul className='list-group mt-5'>
             {
                 todos.map((todo) => {
                     return (
